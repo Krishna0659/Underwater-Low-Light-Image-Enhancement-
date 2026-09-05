@@ -1,0 +1,48 @@
+{
+  "metrics": {
+    "psnr": {
+      "mean": 26.66877646225986,
+      "std": 4.833764438616279
+    },
+    "ssim": {
+      "mean": 0.9133713022640549,
+      "std": 0.07306040555109344
+    },
+    "lpips": {
+      "mean": 0.1620948711676257,
+      "std": 0.07072626077794225
+    },
+    "uciqe": {
+      "mean": 0.4704421713234599,
+      "std": 0.03118362438716049
+    }
+  },
+  "baselines": {
+    "PSNR": {
+      "baseline": 26.2,
+      "achieved": 26.66877646225986,
+      "op": ">=",
+      "passed": true
+    },
+    "SSIM": {
+      "baseline": 0.9,
+      "achieved": 0.9133713022640549,
+      "op": ">=",
+      "passed": true
+    },
+    "LPIPS": {
+      "baseline": 0.095,
+      "achieved": 0.1620948711676257,
+      "op": "<=",
+      "passed": false
+    },
+    "UCIQE": {
+      "baseline": 0.42,
+      "achieved": 0.4704421713234599,
+      "op": ">=",
+      "passed": true
+    }
+  },
+  "all_passed": false,
+  "total_samples": 560
+}

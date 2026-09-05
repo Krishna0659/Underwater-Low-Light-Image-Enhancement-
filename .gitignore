@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Datasets and Archives
+task1_dataset/
+task2_dataset/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Model weights & Checkpoints (>100MB rejected by GitHub)
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.onnx
+checkpoints/*.pth
+tracking/checkpoints/*.pth
+
+# Output Results, Debug & Generated Media
+results/
+debug_triplets/
+tracking/debug_overlays/
+tracking/evaluation_results/overlays/
+graphify-out/
+*.mp4
+*.avi

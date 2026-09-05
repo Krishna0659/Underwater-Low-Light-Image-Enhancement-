@@ -1,0 +1,1937 @@
+{
+  "split_info": {
+    "total_videos": 120,
+    "train_videos_count": 102,
+    "val_videos_count": 18,
+    "train_frames": 34425,
+    "val_frames": 6388,
+    "train_video_names": [
+      "Part1_7/Video_0002",
+      "Part1_7/Video_0003",
+      "Part1_7/Video_0004",
+      "Part1_7/Video_0007",
+      "Part1_7/Video_0009",
+      "Part1_7/Video_0011",
+      "Part1_7/Video_0013",
+      "Part1_7/Video_0018",
+      "Part1_7/Video_0022",
+      "Part1_7/Video_0023",
+      "Part1_7/Video_0024",
+      "Part1_7/Video_0025",
+      "Part1_7/Video_0026",
+      "Part1_7/Video_0027",
+      "Part1_7/Video_0032",
+      "Part1_7/Video_0033",
+      "Part1_7/Video_0035",
+      "Part1_7/Video_0036",
+      "Part1_7/Video_0037",
+      "Part1_7/Video_0039",
+      "Part1_7/Video_0041",
+      "Part1_7/Video_0046",
+      "Part1_7/Video_0047",
+      "Part1_7/Video_0049",
+      "Part1_7/Video_0050",
+      "Part1_7/Video_0052",
+      "Part1_7/Video_0053",
+      "Part1_7/Video_0054",
+      "Part1_7/Video_0057",
+      "Part1_7/Video_0058",
+      "Part1_7/Video_0060",
+      "Part1_7/Video_0061",
+      "Part1_7/Video_0063",
+      "Part2_7/Video_0068",
+      "Part2_7/Video_0069",
+      "Part2_7/Video_0071",
+      "Part2_7/Video_0076",
+      "Part2_7/Video_0078",
+      "Part2_7/Video_0081",
+      "Part2_7/Video_0082",
+      "Part2_7/Video_0083",
+      "Part2_7/Video_0084",
+      "Part2_7/Video_0087",
+      "Part2_7/Video_0088",
+      "Part2_7/Video_0089",
+      "Part2_7/Video_0095",
+      "Part2_7/Video_0096",
+      "Part2_7/Video_0097",
+      "Part2_7/Video_0098",
+      "Part2_7/Video_0099",
+      "Part2_7/Video_0100",
+      "Part2_7/Video_0102",
+      "Part2_7/Video_0104",
+      "Part2_7/Video_0105",
+      "Part2_7/Video_0106",
+      "Part2_7/Video_0107",
+      "Part2_7/Video_0108",
+      "Part2_7/Video_0112",
+      "Part2_7/Video_0114",
+      "Part2_7/Video_0115",
+      "Part2_7/Video_0120",
+      "Part2_7/Video_0121",
+      "Part2_7/Video_0122",
+      "Part2_7/Video_0123",
+      "Part2_7/Video_0125",
+      "Part2_7/Video_0126",
+      "Part3_7/Video_0127",
+      "Part3_7/Video_0129",
+      "Part3_7/Video_0130",
+      "Part3_7/Video_0131",
+      "Part3_7/Video_0133",
+      "Part3_7/Video_0134",
+      "Part3_7/Video_0135",
+      "Part3_7/Video_0136",
+      "Part3_7/Video_0138",
+      "Part3_7/Video_0140",
+      "Part3_7/Video_0143",
+      "Part3_7/Video_0147",
+      "Part3_7/Video_0148",
+      "Part3_7/Video_0149",
+      "Part3_7/Video_0150",
+      "Part3_7/Video_0152",
+      "Part3_7/Video_0153",
+      "Part3_7/Video_0154",
+      "Part3_7/Video_0156",
+      "Part3_7/Video_0157",
+      "Part3_7/Video_0158",
+      "Part3_7/Video_0159",
+      "Part3_7/Video_0160",
+      "Part3_7/Video_0161",
+      "Part3_7/Video_0162",
+      "Part3_7/Video_0168",
+      "Part3_7/Video_0170",
+      "Part3_7/Video_0172",
+      "Part3_7/Video_0173",
+      "Part3_7/Video_0174",
+      "Part3_7/Video_0175",
+      "Part3_7/Video_0176",
+      "Part3_7/Video_0177",
+      "Part3_7/Video_0178",
+      "Part3_7/Video_0179",
+      "Part3_7/Video_0180"
+    ],
+    "val_video_names": [
+      "Part1_7/Video_0001",
+      "Part1_7/Video_0006",
+      "Part1_7/Video_0019",
+      "Part1_7/Video_0020",
+      "Part1_7/Video_0029",
+      "Part1_7/Video_0045",
+      "Part1_7/Video_0059",
+      "Part2_7/Video_0067",
+      "Part2_7/Video_0073",
+      "Part2_7/Video_0079",
+      "Part2_7/Video_0090",
+      "Part2_7/Video_0101",
+      "Part2_7/Video_0103",
+      "Part2_7/Video_0117",
+      "Part3_7/Video_0139",
+      "Part3_7/Video_0141",
+      "Part3_7/Video_0166",
+      "Part3_7/Video_0169"
+    ]
+  },
+  "train_videos": [
+    {
+      "part": "Part1_7",
+      "video": "Video_0002",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0002",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0002/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0002/groundtruth_rect.txt",
+      "num_frames": 484,
+      "num_gt": 484,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0003",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0003",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0003/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0003/groundtruth_rect.txt",
+      "num_frames": 450,
+      "num_gt": 450,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0004",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0004",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0004/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0004/groundtruth_rect.txt",
+      "num_frames": 840,
+      "num_gt": 840,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0007",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0007",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0007/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0007/groundtruth_rect.txt",
+      "num_frames": 377,
+      "num_gt": 377,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0009",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0009",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0009/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0009/groundtruth_rect.txt",
+      "num_frames": 170,
+      "num_gt": 170,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0011",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0011",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0011/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0011/groundtruth_rect.txt",
+      "num_frames": 294,
+      "num_gt": 294,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0013",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0013",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0013/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0013/groundtruth_rect.txt",
+      "num_frames": 259,
+      "num_gt": 259,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0018",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0018",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0018/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0018/groundtruth_rect.txt",
+      "num_frames": 166,
+      "num_gt": 166,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0022",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0022",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0022/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0022/groundtruth_rect.txt",
+      "num_frames": 270,
+      "num_gt": 270,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0023",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0023",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0023/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0023/groundtruth_rect.txt",
+      "num_frames": 465,
+      "num_gt": 465,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0024",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0024",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0024/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0024/groundtruth_rect.txt",
+      "num_frames": 220,
+      "num_gt": 220,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0025",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0025",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0025/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0025/groundtruth_rect.txt",
+      "num_frames": 363,
+      "num_gt": 363,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 20
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0026",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0026",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0026/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0026/groundtruth_rect.txt",
+      "num_frames": 330,
+      "num_gt": 330,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0027",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0027",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0027/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0027/groundtruth_rect.txt",
+      "num_frames": 621,
+      "num_gt": 621,
+      "frame_gt_match": true,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0032",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0032",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0032/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0032/groundtruth_rect.txt",
+      "num_frames": 508,
+      "num_gt": 508,
+      "frame_gt_match": true,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "invalid_frames": 39
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0033",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0033",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0033/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0033/groundtruth_rect.txt",
+      "num_frames": 348,
+      "num_gt": 348,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0035",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0035",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0035/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0035/groundtruth_rect.txt",
+      "num_frames": 183,
+      "num_gt": 183,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0036",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0036",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0036/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0036/groundtruth_rect.txt",
+      "num_frames": 169,
+      "num_gt": 169,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0037",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0037",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0037/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0037/groundtruth_rect.txt",
+      "num_frames": 227,
+      "num_gt": 227,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0039",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0039",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0039/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0039/groundtruth_rect.txt",
+      "num_frames": 421,
+      "num_gt": 421,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 37
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0041",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0041",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0041/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0041/groundtruth_rect.txt",
+      "num_frames": 193,
+      "num_gt": 193,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0046",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0046",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0046/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0046/groundtruth_rect.txt",
+      "num_frames": 350,
+      "num_gt": 350,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0047",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0047",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0047/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0047/groundtruth_rect.txt",
+      "num_frames": 451,
+      "num_gt": 451,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0049",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0049",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0049/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0049/groundtruth_rect.txt",
+      "num_frames": 296,
+      "num_gt": 296,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0050",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0050",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0050/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0050/groundtruth_rect.txt",
+      "num_frames": 348,
+      "num_gt": 348,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 10
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0052",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0052",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0052/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0052/groundtruth_rect.txt",
+      "num_frames": 1047,
+      "num_gt": 1047,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0053",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0053",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0053/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0053/groundtruth_rect.txt",
+      "num_frames": 413,
+      "num_gt": 413,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0054",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0054",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0054/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0054/groundtruth_rect.txt",
+      "num_frames": 511,
+      "num_gt": 511,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0057",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0057",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0057/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0057/groundtruth_rect.txt",
+      "num_frames": 419,
+      "num_gt": 419,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0058",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0058",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0058/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0058/groundtruth_rect.txt",
+      "num_frames": 451,
+      "num_gt": 451,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0060",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0060",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0060/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0060/groundtruth_rect.txt",
+      "num_frames": 476,
+      "num_gt": 476,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0061",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0061",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0061/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0061/groundtruth_rect.txt",
+      "num_frames": 370,
+      "num_gt": 370,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0063",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0063",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0063/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0063/groundtruth_rect.txt",
+      "num_frames": 324,
+      "num_gt": 324,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0068",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0068",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0068/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0068/groundtruth_rect.txt",
+      "num_frames": 405,
+      "num_gt": 405,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0069",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0069",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0069/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0069/groundtruth_rect.txt",
+      "num_frames": 417,
+      "num_gt": 417,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0071",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0071",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0071/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0071/groundtruth_rect.txt",
+      "num_frames": 279,
+      "num_gt": 279,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0076",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0076",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0076/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0076/groundtruth_rect.txt",
+      "num_frames": 296,
+      "num_gt": 296,
+      "frame_gt_match": true,
+      "resolution": [
+        2704,
+        2028
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0078",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0078",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0078/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0078/groundtruth_rect.txt",
+      "num_frames": 151,
+      "num_gt": 151,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0081",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0081",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0081/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0081/groundtruth_rect.txt",
+      "num_frames": 183,
+      "num_gt": 183,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0082",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0082",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0082/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0082/groundtruth_rect.txt",
+      "num_frames": 250,
+      "num_gt": 250,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0083",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0083",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0083/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0083/groundtruth_rect.txt",
+      "num_frames": 314,
+      "num_gt": 314,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0084",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0084",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0084/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0084/groundtruth_rect.txt",
+      "num_frames": 224,
+      "num_gt": 224,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0087",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0087",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0087/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0087/groundtruth_rect.txt",
+      "num_frames": 178,
+      "num_gt": 178,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0088",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0088",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0088/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0088/groundtruth_rect.txt",
+      "num_frames": 462,
+      "num_gt": 462,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0089",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0089",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0089/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0089/groundtruth_rect.txt",
+      "num_frames": 258,
+      "num_gt": 258,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0095",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0095",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0095/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0095/groundtruth_rect.txt",
+      "num_frames": 465,
+      "num_gt": 465,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0096",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0096",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0096/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0096/groundtruth_rect.txt",
+      "num_frames": 329,
+      "num_gt": 329,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0097",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0097",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0097/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0097/groundtruth_rect.txt",
+      "num_frames": 330,
+      "num_gt": 330,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0098",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0098",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0098/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0098/groundtruth_rect.txt",
+      "num_frames": 487,
+      "num_gt": 487,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0099",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0099",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0099/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0099/groundtruth_rect.txt",
+      "num_frames": 130,
+      "num_gt": 130,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0100",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0100",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0100/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0100/groundtruth_rect.txt",
+      "num_frames": 125,
+      "num_gt": 125,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0102",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0102",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0102/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0102/groundtruth_rect.txt",
+      "num_frames": 228,
+      "num_gt": 228,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0104",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0104",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0104/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0104/groundtruth_rect.txt",
+      "num_frames": 344,
+      "num_gt": 344,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0105",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0105",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0105/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0105/groundtruth_rect.txt",
+      "num_frames": 232,
+      "num_gt": 232,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0106",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0106",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0106/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0106/groundtruth_rect.txt",
+      "num_frames": 361,
+      "num_gt": 361,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0107",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0107",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0107/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0107/groundtruth_rect.txt",
+      "num_frames": 269,
+      "num_gt": 269,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0108",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0108",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0108/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0108/groundtruth_rect.txt",
+      "num_frames": 170,
+      "num_gt": 170,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0112",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0112",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0112/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0112/groundtruth_rect.txt",
+      "num_frames": 390,
+      "num_gt": 390,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0114",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0114",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0114/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0114/groundtruth_rect.txt",
+      "num_frames": 284,
+      "num_gt": 284,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0115",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0115",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0115/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0115/groundtruth_rect.txt",
+      "num_frames": 228,
+      "num_gt": 228,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0120",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0120",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0120/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0120/groundtruth_rect.txt",
+      "num_frames": 232,
+      "num_gt": 232,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0121",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0121",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0121/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0121/groundtruth_rect.txt",
+      "num_frames": 237,
+      "num_gt": 237,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0122",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0122",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0122/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0122/groundtruth_rect.txt",
+      "num_frames": 429,
+      "num_gt": 429,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0123",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0123",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0123/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0123/groundtruth_rect.txt",
+      "num_frames": 220,
+      "num_gt": 220,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0125",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0125",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0125/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0125/groundtruth_rect.txt",
+      "num_frames": 451,
+      "num_gt": 451,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0126",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0126",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0126/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0126/groundtruth_rect.txt",
+      "num_frames": 316,
+      "num_gt": 316,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0127",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0127",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0127/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0127/groundtruth_rect.txt",
+      "num_frames": 316,
+      "num_gt": 316,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0129",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0129",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0129/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0129/groundtruth_rect.txt",
+      "num_frames": 362,
+      "num_gt": 362,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0130",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0130",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0130/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0130/groundtruth_rect.txt",
+      "num_frames": 334,
+      "num_gt": 334,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0131",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0131",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0131/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0131/groundtruth_rect.txt",
+      "num_frames": 334,
+      "num_gt": 334,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0133",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0133",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0133/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0133/groundtruth_rect.txt",
+      "num_frames": 363,
+      "num_gt": 363,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0134",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0134",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0134/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0134/groundtruth_rect.txt",
+      "num_frames": 338,
+      "num_gt": 338,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0135",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0135",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0135/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0135/groundtruth_rect.txt",
+      "num_frames": 325,
+      "num_gt": 325,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0136",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0136",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0136/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0136/groundtruth_rect.txt",
+      "num_frames": 493,
+      "num_gt": 493,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0138",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0138",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0138/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0138/groundtruth_rect.txt",
+      "num_frames": 391,
+      "num_gt": 391,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0140",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0140",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0140/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0140/groundtruth_rect.txt",
+      "num_frames": 386,
+      "num_gt": 386,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0143",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0143",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0143/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0143/groundtruth_rect.txt",
+      "num_frames": 471,
+      "num_gt": 471,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0147",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0147",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0147/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0147/groundtruth_rect.txt",
+      "num_frames": 491,
+      "num_gt": 491,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0148",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0148",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0148/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0148/groundtruth_rect.txt",
+      "num_frames": 337,
+      "num_gt": 337,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0149",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0149",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0149/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0149/groundtruth_rect.txt",
+      "num_frames": 296,
+      "num_gt": 296,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0150",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0150",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0150/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0150/groundtruth_rect.txt",
+      "num_frames": 435,
+      "num_gt": 435,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0152",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0152",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0152/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0152/groundtruth_rect.txt",
+      "num_frames": 292,
+      "num_gt": 292,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0153",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0153",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0153/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0153/groundtruth_rect.txt",
+      "num_frames": 387,
+      "num_gt": 387,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0154",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0154",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0154/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0154/groundtruth_rect.txt",
+      "num_frames": 167,
+      "num_gt": 167,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0156",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0156",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0156/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0156/groundtruth_rect.txt",
+      "num_frames": 213,
+      "num_gt": 213,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0157",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0157",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0157/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0157/groundtruth_rect.txt",
+      "num_frames": 462,
+      "num_gt": 462,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0158",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0158",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0158/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0158/groundtruth_rect.txt",
+      "num_frames": 266,
+      "num_gt": 266,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0159",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0159",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0159/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0159/groundtruth_rect.txt",
+      "num_frames": 305,
+      "num_gt": 305,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0160",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0160",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0160/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0160/groundtruth_rect.txt",
+      "num_frames": 370,
+      "num_gt": 370,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0161",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0161",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0161/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0161/groundtruth_rect.txt",
+      "num_frames": 447,
+      "num_gt": 447,
+      "frame_gt_match": true,
+      "resolution": [
+        2704,
+        1520
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0162",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0162",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0162/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0162/groundtruth_rect.txt",
+      "num_frames": 194,
+      "num_gt": 194,
+      "frame_gt_match": true,
+      "resolution": [
+        2704,
+        1520
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0168",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0168",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0168/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0168/groundtruth_rect.txt",
+      "num_frames": 282,
+      "num_gt": 282,
+      "frame_gt_match": true,
+      "resolution": [
+        2704,
+        2028
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0170",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0170",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0170/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0170/groundtruth_rect.txt",
+      "num_frames": 331,
+      "num_gt": 331,
+      "frame_gt_match": true,
+      "resolution": [
+        2704,
+        1520
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0172",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0172",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0172/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0172/groundtruth_rect.txt",
+      "num_frames": 165,
+      "num_gt": 165,
+      "frame_gt_match": true,
+      "resolution": [
+        2704,
+        1520
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0173",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0173",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0173/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0173/groundtruth_rect.txt",
+      "num_frames": 437,
+      "num_gt": 437,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 17
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0174",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0174",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0174/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0174/groundtruth_rect.txt",
+      "num_frames": 265,
+      "num_gt": 265,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0175",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0175",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0175/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0175/groundtruth_rect.txt",
+      "num_frames": 226,
+      "num_gt": 226,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0176",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0176",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0176/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0176/groundtruth_rect.txt",
+      "num_frames": 469,
+      "num_gt": 469,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0177",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0177",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0177/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0177/groundtruth_rect.txt",
+      "num_frames": 403,
+      "num_gt": 403,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0178",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0178",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0178/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0178/groundtruth_rect.txt",
+      "num_frames": 196,
+      "num_gt": 196,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0179",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0179",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0179/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0179/groundtruth_rect.txt",
+      "num_frames": 180,
+      "num_gt": 180,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0180",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0180",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0180/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0180/groundtruth_rect.txt",
+      "num_frames": 208,
+      "num_gt": 208,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    }
+  ],
+  "val_videos": [
+    {
+      "part": "Part1_7",
+      "video": "Video_0001",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0001",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0001/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0001/groundtruth_rect.txt",
+      "num_frames": 165,
+      "num_gt": 165,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0006",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0006",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0006/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0006/groundtruth_rect.txt",
+      "num_frames": 330,
+      "num_gt": 330,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0019",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0019",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0019/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0019/groundtruth_rect.txt",
+      "num_frames": 332,
+      "num_gt": 332,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0020",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0020",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0020/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0020/groundtruth_rect.txt",
+      "num_frames": 552,
+      "num_gt": 552,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0029",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0029",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0029/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0029/groundtruth_rect.txt",
+      "num_frames": 428,
+      "num_gt": 428,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0045",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0045",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0045/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0045/groundtruth_rect.txt",
+      "num_frames": 350,
+      "num_gt": 350,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part1_7",
+      "video": "Video_0059",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0059",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0059/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part1_7/Video_0059/groundtruth_rect.txt",
+      "num_frames": 380,
+      "num_gt": 380,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 26
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0067",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0067",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0067/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0067/groundtruth_rect.txt",
+      "num_frames": 391,
+      "num_gt": 391,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0073",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0073",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0073/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0073/groundtruth_rect.txt",
+      "num_frames": 510,
+      "num_gt": 510,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0079",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0079",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0079/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0079/groundtruth_rect.txt",
+      "num_frames": 507,
+      "num_gt": 507,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0090",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0090",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0090/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0090/groundtruth_rect.txt",
+      "num_frames": 150,
+      "num_gt": 150,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0101",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0101",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0101/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0101/groundtruth_rect.txt",
+      "num_frames": 120,
+      "num_gt": 120,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0103",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0103",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0103/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0103/groundtruth_rect.txt",
+      "num_frames": 213,
+      "num_gt": 213,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part2_7",
+      "video": "Video_0117",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0117",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0117/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part2_7/Video_0117/groundtruth_rect.txt",
+      "num_frames": 213,
+      "num_gt": 213,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0139",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0139",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0139/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0139/groundtruth_rect.txt",
+      "num_frames": 386,
+      "num_gt": 386,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0141",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0141",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0141/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0141/groundtruth_rect.txt",
+      "num_frames": 379,
+      "num_gt": 379,
+      "frame_gt_match": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0166",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0166",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0166/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0166/groundtruth_rect.txt",
+      "num_frames": 505,
+      "num_gt": 505,
+      "frame_gt_match": true,
+      "resolution": [
+        2704,
+        2028
+      ],
+      "invalid_frames": 0
+    },
+    {
+      "part": "Part3_7",
+      "video": "Video_0169",
+      "video_path": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0169",
+      "imgs_dir": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0169/imgs",
+      "gt_file": "/data/projectwork/underwater/task2_dataset/data/data_1,2,3/Part3_7/Video_0169/groundtruth_rect.txt",
+      "num_frames": 477,
+      "num_gt": 477,
+      "frame_gt_match": true,
+      "resolution": [
+        2704,
+        2028
+      ],
+      "invalid_frames": 0
+    }
+  ]
+}
